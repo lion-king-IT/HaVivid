@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "121100092074",
+    "project_id": "button-clicker-ad79d",
+    "storage_bucket": "button-clicker-ad79d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121100092074:android:b1909c20014198e62cc6d3",
+        "android_client_info": {
+          "package_name": "com.reo.running.havivid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121100092074-seka56j8o8dq0tketcr0fe80qtcaftm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsPfNv-JiwqgMtTPReb5d0p1H2QnHILm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121100092074-seka56j8o8dq0tketcr0fe80qtcaftm8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
