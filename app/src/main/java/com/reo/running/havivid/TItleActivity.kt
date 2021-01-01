@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             //五秒掛けて実行する
             fadeAnim.duration = 5000
             fadeAnim.fillAfter = true
-            life_title.animation = fadeAnim
+            //life_title.animation = fadeAnim
     }
 
     private fun animation2() {
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             val fadeAnim = AlphaAnimation(0.0f,1.0f)
             //五秒掛けて実行する
             fadeAnim.fillAfter = true
-            life_title.animation = fadeAnim
+            //life_title.animation = fadeAnim
         },3000)
     }
 
@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
             val fadeAnim = AlphaAnimation(0.0f,1.0f)
             //五秒掛けて実行する
             fadeAnim.fillAfter = true
-            name_title.animation = fadeAnim
+            //name_title.animation = fadeAnim
         },6000)
     }
 }
