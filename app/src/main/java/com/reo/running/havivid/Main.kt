@@ -53,12 +53,14 @@ class Main : AppCompatActivity() {
 //                }
 //                .show()
 
-            fun hoge(): String = "test"
 
 
-            fun hogehoge() {
 
+
+            fun hoge(){
+                
             }
+
 
             fun foo() {
 
