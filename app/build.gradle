@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "com.reo.running.havivid"
-        minSdkVersion 30
+        minSdkVersion 24
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -42,4 +42,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth-ktx'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'com.google.android.material:material:1.1.0-alpha06'
+
+    implementation 'jp.co.recruit_mp:android-RMP-Appirater:1.1.1'
+
 }
