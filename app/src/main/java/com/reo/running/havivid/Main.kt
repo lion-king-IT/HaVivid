@@ -10,6 +10,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
+import jp.co.recruit_mp.android.rmp_appirater.RmpAppirater
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.edit_layout.*
 
@@ -37,26 +38,34 @@ class Main : AppCompatActivity() {
         val fab:View  = findViewById(R.id.fab)
         fab.setOnClickListener { view ->
 
-            Snackbar.make(view,"Here's a Snackbar",Snackbar.LENGTH_LONG)
-                .setAction("Action",null)
-                .show()
+            RmpAppirater.appLaunched(this)
+//
+//            Snackbar.make(view,"Here's a Snackbar",Snackbar.LENGTH_LONG)
+//                .setAction("Action",null)
+//                .show()
+//
+//            // TODO editTextから文字を入力したい！！
+//            val builder = AlertDialog.Builder(this)
+//            builder.setMessage("")
+//                .setView(R.layout.edit_layout)
+//                .setPositiveButton("OK") { dialog, which ->
+//                tv_textView.text = et_editText.getText()
+//                }
+//                .show()
 
-            // TODO editTextから文字を入力したい！！
-            val builder = AlertDialog.Builder(this)
-            builder.setMessage("")
-                .setView(R.layout.edit_layout)
-                .setPositiveButton("OK") { dialog, which ->
-                tv_textView.text = et_editText.getText()
-                }
-                .show()
+
+
+
 
             fun hoge(){
                 
             }
 
 
+            fun foo() {
 
-            /*
+            }
+             /*
             val builder = AlertDialog.Builder(context)
             val inflater = layoutInflater
             val dialogLayout = inflater.inflate(R.layout.edit_layout,null)
