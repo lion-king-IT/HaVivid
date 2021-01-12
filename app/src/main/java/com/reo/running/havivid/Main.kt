@@ -59,7 +59,11 @@ class Main : AppCompatActivity() {
             fun hogehoge() {
 
             }
-            /*
+
+            fun foo() {
+
+            }
+             /*
             val builder = AlertDialog.Builder(context)
             val inflater = layoutInflater
             val dialogLayout = inflater.inflate(R.layout.edit_layout,null)
