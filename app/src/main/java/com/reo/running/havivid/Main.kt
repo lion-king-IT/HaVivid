@@ -50,6 +50,10 @@ class Main : AppCompatActivity() {
                 }
                 .show()
 
+            fun hoge(){
+                
+            }
+
 
 
             /*
